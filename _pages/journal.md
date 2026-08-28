@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Journal
-permalink: /journal/
 eyebrow: Stories
 description: Music, performances, reflections, and news from Gabriela’s archive.
 ---

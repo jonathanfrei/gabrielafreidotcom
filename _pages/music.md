@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Music
-permalink: /music/
 eyebrow: Listen
 description: Songs shaped by faith, love, and the quiet work of grace.
 ---
