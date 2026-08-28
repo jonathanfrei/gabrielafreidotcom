@@ -13,6 +13,7 @@ plugins:
 collections:
   pages:
     output: true
+    permalink: /:path
 
 defaults:
   - scope:
@@ -20,6 +21,7 @@ defaults:
       type: posts
     values:
       layout: post
+      permalink: /:year/:month/:day/:title
   - scope:
       path: ""
       type: pages
