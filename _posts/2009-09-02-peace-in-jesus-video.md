@@ -13,7 +13,7 @@ tags:
 - Music Video
 ---
 
-<object height="385" width="480"><param name="movie" value="http://www.youtube.com/v/agLnWHrh3k8&hl=en_US&fs=1"/><param name="allowFullScreen" value="true"/><param name="allowscriptaccess" value="always"/><embed allowfullscreen="true" allowscriptaccess="always" height="385" src="http://www.youtube.com/v/agLnWHrh3k8&hl=en_US&fs=1" type="application/x-shockwave-flash" width="480"/></object>
+https://www.youtube.com/watch?v=agLnWHrh3k8
 
 **Lyrics:**
 
