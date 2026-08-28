@@ -1,6 +1,6 @@
 title: Gabriela Frei
 description: Music, performances, reflections, and news from Gabriela Frei.
-url: "https://www.gabrielafrei.com"
+url: "https://gaby.jonathanfrei.com"
 baseurl: ""
 timezone: America/New_York
 
@@ -14,10 +14,10 @@ collections:
     permalink: /:path
   events:
     output: true
-    permalink: /events/:name
+    permalink: /appearances/:name
   discography:
     output: true
-    permalink: /music/:name
+    permalink: /releases/:name
 
 defaults:
   - scope:
@@ -46,13 +46,13 @@ navigation:
   - title: Home
     url: /
   - title: Music
-    url: /music/
+    url: /music
   - title: Events
-    url: /events/
+    url: /events
   - title: About
-    url: /about/
+    url: /about
   - title: Journal
-    url: /journal/
+    url: /journal
 
 social:
   youtube: "https://www.youtube.com/@gabrielafrei"

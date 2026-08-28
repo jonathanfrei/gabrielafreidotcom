@@ -12,4 +12,4 @@ tracks:
 
 An intimate collection of faith-filled music, shared from a journey of surrender, healing, and peace.
 
-Explore performances and recordings in the [journal]({{ '/journal/' | relative_url }}).
+Explore performances and recordings in the [journal]({{ '/journal' | relative_url }}).

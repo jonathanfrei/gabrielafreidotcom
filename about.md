@@ -4,7 +4,7 @@ eyebrow: The artist
 description: Singer, pianist, composer, and songwriter—sharing music that points toward hope.
 layout: page
 title: About Me
-permalink: /about/
+permalink: /about
 date: '1985-09-28T16:35:00.007-04:00'
 last_modified_at: '2014-10-01T12:09:30.292-04:00'
 original_url: http://www.gabrielafrei.com/2009/09/about-me.html
