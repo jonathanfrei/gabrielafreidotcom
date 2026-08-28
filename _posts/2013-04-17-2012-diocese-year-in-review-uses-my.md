@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '529948397754761284'
-permalink: /2013/04/2012-diocese-year-in-review-uses-my.html
+old_permalink: /2013/04/2012-diocese-year-in-review-uses-my.html
 tags:
 - Music Video
 thumbnail: https://img.youtube.com/vi/iOqldqeAh-Y/default.jpg

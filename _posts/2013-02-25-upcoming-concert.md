@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '1966213557207855804'
-permalink: /2013/02/upcoming-concert.html
+old_permalink: /2013/02/upcoming-concert.html
 tags:
 - concert
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbpynPtt_8dv0JkFhasFFhSNbG6RZtuAEALS4xqAN7dRmbWJsdcNzPVA5412cfkXwuU6R1mxxESv600Khxl9LMWN5xT6MZNEVP7VHayoyXcWHDggcMmssjJa1sPxl8GlxJITo9O3ItdEhG/s72-c/CONCERT-page0001.jpg

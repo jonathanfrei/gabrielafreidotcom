@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '4778218824256000411'
-permalink: /2013/04/free-concert-come-hear-me-and-my-good.html
+old_permalink: /2013/04/free-concert-come-hear-me-and-my-good.html
 tags:
 - concert
 - Live Performance

@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '7685814696385726344'
-permalink: /2010/03/women-of-faith-women-of-action.html
+old_permalink: /2010/03/women-of-faith-women-of-action.html
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhKdyibAlqnfvx65w0dyKqP6vOI_RBLZDQpY67EEd3O_cC-ovisUbWV-flpRAO-n3b1GH10B7VI8RQcw_s0lqjonmu-FvMb1v_m4agA41KFTiHyI3Dp77KJWRAUIgt9EQ0G8xFK1-FCIFfz/s72-c/IMG_8322-1.JPG
 ---
 

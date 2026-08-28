@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '7632037322629998137'
-permalink: /2009/09/blessed-be-name-music-video.html
+old_permalink: /2009/09/blessed-be-name-music-video.html
 tags:
 - Music Video
 ---

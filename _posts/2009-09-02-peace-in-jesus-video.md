@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '8876517625746726329'
-permalink: /2010/07/peace-in-jesus-video.html
+old_permalink: /2010/07/peace-in-jesus-video.html
 tags:
 - Music Video
 ---

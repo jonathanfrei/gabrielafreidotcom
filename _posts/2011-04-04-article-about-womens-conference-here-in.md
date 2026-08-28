@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '6135704924680715373'
-permalink: /2011/04/article-about-womens-conference-here-in.html
+old_permalink: /2011/04/article-about-womens-conference-here-in.html
 ---
 
 ******Article about the women's conference here in Fort Myers that I recently spoke at and provided the music for. This was the third annual conference, and it drew the largest crowd of women thus far. I was honored to return for a second time to minister to the women, share my original music, and speak from my heart about our beautiful Mother Mary. I was honored to share the stage with Colleen Carroll Campbell from EWTN and Brenda Sharman from Pure Fashion.***

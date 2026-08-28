@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '3953947674559411573'
-permalink: /2007/07/portrait-shots.html
+old_permalink: /2007/07/portrait-shots.html
 tags:
 - Photos
 ---

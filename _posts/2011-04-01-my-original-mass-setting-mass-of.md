@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '7275123503182385835'
-permalink: /2010/10/my-original-mass-setting-mass-of.html
+old_permalink: /2010/10/my-original-mass-setting-mass-of.html
 tags:
 - Mass of Annunciation
 - new mass setting

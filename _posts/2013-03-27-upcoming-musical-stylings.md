@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '4038605123827291865'
-permalink: /2013/03/upcoming-musical-stylings.html
+old_permalink: /2013/03/upcoming-musical-stylings.html
 tags:
 - concert
 - Paul Todd

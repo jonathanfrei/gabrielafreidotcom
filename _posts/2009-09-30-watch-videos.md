@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '9097038900374414322'
-permalink: /1985/09/watch-videos.html
+old_permalink: /1985/09/watch-videos.html
 tags:
 - Music Video
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix4lWqd-5h7KR0R2nZwsikBvHQY1FZ3Jcozm2l2JhaCc9Hy7CtwT1pA84u9dgFoO-CEiEnY-Rvg1J6IRiP90ltNYpBxbyJGac9yBM1YeQCzaJOF6E45A9PxggYk2xm7zVbX9_wv0WuKoGq/s72-c/IMG_1398+star+1.jpg

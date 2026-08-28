@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '3080194902860977842'
-permalink: /2007/10/miscellaneous.html
+old_permalink: /2007/10/miscellaneous.html
 tags:
 - Photos
 ---

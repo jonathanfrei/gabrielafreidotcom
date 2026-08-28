@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '7323717706353826844'
-permalink: /2011/04/mass-of-annunciation-to-ocp.html
+old_permalink: /2011/04/mass-of-annunciation-to-ocp.html
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp7Tkee-KQKWFkOZSsdX-lGwgpglLYX9c9RYCI0Wfnb3h7l-mX2d18acwYAVMbzAXJhwPh42zMGhq5YjGNRGWyzK7RmoDhsgngWw3ZRYGnCzjpqzQZCiXj3XQG-Th17DPsUZNpUEBWOE-v/s72-c/sig.jpg
 ---
 

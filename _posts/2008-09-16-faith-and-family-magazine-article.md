@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '8223847694574573575'
-permalink: /2009/10/faith-and-family-magazine-article.html
+old_permalink: /2009/10/faith-and-family-magazine-article.html
 tags:
 - Articles
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGiJwKT0SW_Rfe4ywW_pqfp1kt4WrXjuMZ0LJ0von3XFYRE4YKt9wMTxYu2vJuuosi8CR5TvyBthI5LLdEo-s5O_uKA5OukElheMBKXZd6B6s__DQH3w-Mwp8QwZJdHY4-wNVTHD5IfUw/s72-c/one.jpg

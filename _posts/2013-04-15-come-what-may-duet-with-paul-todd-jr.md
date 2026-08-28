@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '3750369773417884909'
-permalink: /2013/04/come-what-may-duet-with-paul-todd-jr.html
+old_permalink: /2013/04/come-what-may-duet-with-paul-todd-jr.html
 tags:
 - concert
 - Duets

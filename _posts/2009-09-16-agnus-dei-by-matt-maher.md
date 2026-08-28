@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '1417880895556598783'
-permalink: /2009/09/agnus-dei-by-matt-maher.html
+old_permalink: /2009/09/agnus-dei-by-matt-maher.html
 tags:
 - Music Video
 ---

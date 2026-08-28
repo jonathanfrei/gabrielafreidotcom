@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '3655514279088122617'
-permalink: /2013/03/altos-lament.html
+old_permalink: /2013/03/altos-lament.html
 tags:
 - Broadway
 - Live Performance

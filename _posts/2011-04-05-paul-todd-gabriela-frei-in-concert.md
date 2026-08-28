@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '8683705985347314306'
-permalink: /2011/04/paul-todd-gabriela-frei-in-concert.html
+old_permalink: /2011/04/paul-todd-gabriela-frei-in-concert.html
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeaYNgMiartvK4V3FQBDieL0LJ9_PFTnb_S8xaweXj0IQVPCQuT1RL57bjc3aMTXjbf_52m3KswnXiP4QAIB-LDrxYyoktEF7qqk-Lx7g4AqDSEg-7hZ-35f-tavhyphenhyphen1owKSfg_UJXVNhOL/s72-c/IMG_2813.JPG
 ---
 

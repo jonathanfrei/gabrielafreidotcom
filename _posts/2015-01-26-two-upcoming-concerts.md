@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '1810516708541439369'
-permalink: /2015/01/two-upcoming-concerts.html
+old_permalink: /2015/01/two-upcoming-concerts.html
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY5ox81ugpF2h6gogzuup_8AdHQiNSc7uGXnBYNNX76HwYzI2Mk2OqNrqrZ5xIPqvy9V90vtBUM495hhyphenhypheniR1mWEBGqxkIouJsskNZYx4L1XEoovlZ8ZVDWx4AisFtvMMkoaRO36g2Q2M1o/s72-c/1234119_811468599710_7033485209340855777_n.jpg
 ---
 

@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '545010069339523216'
-permalink: /2009/09/let-me-live-video.html
+old_permalink: /2009/09/let-me-live-video.html
 tags:
 - Music Video
 - Pro-Life

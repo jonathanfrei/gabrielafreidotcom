@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '3258047015019761592'
 blogger_id: '729765897354003605'
-permalink: /2009/09/breathe-music-video.html
+old_permalink: /2009/09/breathe-music-video.html
 tags:
 - Music Video
 ---
