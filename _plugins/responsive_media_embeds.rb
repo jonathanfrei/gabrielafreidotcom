@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require "cgi"
+require "json"
+require "net/http"
 require "uri"
 
 module ResponsiveMediaEmbeds
@@ -28,7 +30,7 @@ module ResponsiveMediaEmbeds
     when "soundcloud.com", "m.soundcloud.com"
       soundcloud_embed(url)
     when "flickr.com", "m.flickr.com"
-      flickr_embed(uri)
+      flickr_embed(url)
     end
   rescue URI::InvalidURIError
     nil
@@ -74,16 +76,24 @@ module ResponsiveMediaEmbeds
     HTML
   end
 
-  def flickr_embed(uri)
-    match = uri.path.match(%r{\A/photos/([A-Za-z0-9@_-]+)/(\d+)/?\z})
-    return unless match
+  def flickr_embed(url)
+    endpoint = URI("https://www.flickr.com/services/oembed/")
+    endpoint.query = URI.encode_www_form(format: "json", url: url)
+    response = Net::HTTP.start(
+      endpoint.host,
+      endpoint.port,
+      use_ssl: true,
+      open_timeout: 5,
+      read_timeout: 10
+    ) { |http| http.get(endpoint.request_uri) }
+    return unless response.is_a?(Net::HTTPSuccess)
 
-    user_id, photo_id = match.captures
-    <<~HTML
-      <div class="media-embed media-embed--flickr">
-        <iframe src="https://embedr.flickr.com/photos/#{user_id}/#{photo_id}" title="Flickr photo" loading="lazy" allowfullscreen></iframe>
-      </div>
-    HTML
+    embed_html = JSON.parse(response.body)["html"]
+    return if embed_html.to_s.empty?
+
+    %(<div class="media-embed media-embed--flickr">\n#{embed_html}\n</div>\n)
+  rescue JSON::ParserError, Net::OpenTimeout, Net::ReadTimeout, SocketError
+    nil
   end
 end
 
