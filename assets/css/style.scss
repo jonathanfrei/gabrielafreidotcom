@@ -1,0 +1,28 @@
+---
+---
+
+@import "minima";
+
+.media-embed {
+  margin: 1.5rem 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.media-embed iframe {
+  border: 0;
+  display: block;
+  width: 100%;
+}
+
+.media-embed--video {
+  aspect-ratio: 16 / 9;
+}
+
+.media-embed--video iframe {
+  height: 100%;
+}
+
+.media-embed--soundcloud iframe {
+  height: 166px;
+}
