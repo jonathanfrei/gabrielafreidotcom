@@ -52,4 +52,4 @@ The following schedule will help you in outlining all the places that you will n
 
 •    Processional Hymn
 
-![Bookmark and Share](http://s7.addthis.com/static/btn/sm-share-en.gif)
+

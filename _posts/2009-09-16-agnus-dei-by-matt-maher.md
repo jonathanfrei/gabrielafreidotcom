@@ -41,4 +41,4 @@ Dona nobis pacem (Dona nobis pacem). -- *translation: Grant us peace.*
 
 Words & Music by Matt Maher
 
-![Bookmark and Share](http://s7.addthis.com/static/btn/sm-share-en.gif)
+

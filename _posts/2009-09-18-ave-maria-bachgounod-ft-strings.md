@@ -43,4 +43,4 @@ Melody composed by Charles Gounod, set over the Prelude in C by J.S. Bach.
 
 Words announced by the angel Gabriel to Mary, also represented by the Hail Mary prayer.
 
-![Bookmark and Share](http://s7.addthis.com/static/btn/sm-share-en.gif)
+

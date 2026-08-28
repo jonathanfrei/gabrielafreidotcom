@@ -59,4 +59,4 @@ My heart will choose to say, Lord, blessed be Your name.
 
 Words & Music by Matt Redman
 
-![Bookmark and Share](http://s7.addthis.com/static/btn/sm-share-en.gif)
+

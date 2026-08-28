@@ -22,4 +22,4 @@ To God be the glory.
 
 [![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp7Tkee-KQKWFkOZSsdX-lGwgpglLYX9c9RYCI0Wfnb3h7l-mX2d18acwYAVMbzAXJhwPh42zMGhq5YjGNRGWyzK7RmoDhsgngWw3ZRYGnCzjpqzQZCiXj3XQG-Th17DPsUZNpUEBWOE-v/s200/sig.jpg)](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp7Tkee-KQKWFkOZSsdX-lGwgpglLYX9c9RYCI0Wfnb3h7l-mX2d18acwYAVMbzAXJhwPh42zMGhq5YjGNRGWyzK7RmoDhsgngWw3ZRYGnCzjpqzQZCiXj3XQG-Th17DPsUZNpUEBWOE-v/s1600/sig.jpg)
 
-![Bookmark and Share](http://s7.addthis.com/static/btn/sm-share-en.gif)
+

@@ -63,4 +63,4 @@ And I just can’t wait to spend the rest of my life with you.
 
 Words & Music © Gabriela Frei 2009
 
-![Bookmark and Share](http://s7.addthis.com/static/btn/sm-share-en.gif)
+

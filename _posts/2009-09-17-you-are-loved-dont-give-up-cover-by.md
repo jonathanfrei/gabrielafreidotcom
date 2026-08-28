@@ -61,4 +61,4 @@ Words & Music by Thomas Salter
 
 Performed by Josh Groban, on *Awake*
 
-![Bookmark and Share](http://s7.addthis.com/static/btn/sm-share-en.gif)
+
