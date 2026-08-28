@@ -59,7 +59,17 @@ Dir.mktmpdir("gabrielafrei-jekyll-test") do |destination|
   stylesheet = File.read(File.join(destination, "assets", "main.css"))
   assert(stylesheet.include?(".media-embed--video"), "Responsive embed CSS was not compiled")
   assert(stylesheet.match?(/aspect-ratio:\s*16\s*\/\s*9/), "Responsive video aspect ratio was not compiled")
-  %w[index.html music/index.html events/index.html about/index.html journal/index.html].each do |path|
+  root_pages = {
+    "music.md" => "/music",
+    "events.md" => "/events",
+    "about.md" => "/about",
+    "journal.md" => "/journal"
+  }
+  root_pages.each do |name, expected_url|
+    generated_page = site.pages.find { |page| page.name == name }
+    assert(generated_page&.url == expected_url, "#{name} URL should be #{expected_url}, got #{generated_page&.url}")
+  end
+  %w[index.html music.html events.html about.html journal.html].each do |path|
     assert(File.exist?(File.join(destination, path)), "Expected generated page is missing: #{path}")
   end
   home_html = File.read(File.join(destination, "index.html"))
@@ -68,6 +78,8 @@ Dir.mktmpdir("gabrielafrei-jekyll-test") do |destination|
   assert(home_html.include?('class="theme-toggle"'), "Theme control was not rendered")
   assert(site.collections.fetch("events").docs.any?, "Events collection is empty")
   assert(site.collections.fetch("discography").docs.any?, "Discography collection is empty")
+  assert(site.collections.fetch("events").docs.all? { |event| event.url.start_with?("/appearances/") }, "Event detail URLs conflict with /events")
+  assert(site.collections.fetch("discography").docs.all? { |release| release.url.start_with?("/releases/") }, "Release detail URLs conflict with /music")
 end
 
 puts "Content behavior checks passed"
