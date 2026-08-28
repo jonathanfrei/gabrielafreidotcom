@@ -59,6 +59,15 @@ Dir.mktmpdir("gabrielafrei-jekyll-test") do |destination|
   stylesheet = File.read(File.join(destination, "assets", "main.css"))
   assert(stylesheet.include?(".media-embed--video"), "Responsive embed CSS was not compiled")
   assert(stylesheet.match?(/aspect-ratio:\s*16\s*\/\s*9/), "Responsive video aspect ratio was not compiled")
+  %w[index.html music/index.html events/index.html about/index.html journal/index.html].each do |path|
+    assert(File.exist?(File.join(destination, path)), "Expected generated page is missing: #{path}")
+  end
+  home_html = File.read(File.join(destination, "index.html"))
+  assert(home_html.include?("Songs from the heart, offered with grace."), "New home hero was not rendered")
+  assert(home_html.include?('aria-label="Main navigation"'), "Accessible navigation was not rendered")
+  assert(home_html.include?('class="theme-toggle"'), "Theme control was not rendered")
+  assert(site.collections.fetch("events").docs.any?, "Events collection is empty")
+  assert(site.collections.fetch("discography").docs.any?, "Discography collection is empty")
 end
 
 puts "Content behavior checks passed"

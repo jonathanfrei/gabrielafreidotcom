@@ -1,0 +1,10 @@
+---
+layout: page
+eyebrow: Music
+---
+<div class="release-detail">
+  {% if page.cover_image %}<img src="{{ page.cover_image }}" alt="{{ page.title }} cover artwork" width="640" height="640">{% endif %}
+  <div><p class="release-year">{{ page.release_year }}</p>{{ content }}
+  {% if page.tracks %}<div class="accordion"><button type="button" aria-expanded="true">Track list <span aria-hidden="true">−</span></button><ol>{% for track in page.tracks %}<li><span>{{ track.title }}</span><span>{{ track.duration }}</span></li>{% endfor %}</ol></div>{% endif %}
+  <div class="button-row">{% if page.spotify_url %}<a class="button" href="{{ page.spotify_url }}">Listen on Spotify</a>{% endif %}{% if page.apple_music_url %}<a class="button button-secondary" href="{{ page.apple_music_url }}">Apple Music</a>{% endif %}</div></div>
+</div>

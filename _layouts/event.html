@@ -1,0 +1,7 @@
+---
+layout: page
+eyebrow: Live event
+---
+<dl class="event-details"><div><dt>Date</dt><dd>{{ page.event_date | date: '%B %-d, %Y · %-I:%M %p' }}</dd></div><div><dt>Venue</dt><dd>{{ page.venue }}</dd></div><div><dt>Location</dt><dd>{{ page.location }}</dd></div></dl>
+{{ content }}
+{% if page.ticket_url %}<p><a class="button" href="{{ page.ticket_url }}">{% if page.free_entry %}Event details{% else %}Get tickets{% endif %}</a></p>{% endif %}
