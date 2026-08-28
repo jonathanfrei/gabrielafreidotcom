@@ -4,8 +4,6 @@ url: "https://www.gabrielafrei.com"
 baseurl: ""
 timezone: America/New_York
 
-theme: minima
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -14,6 +12,12 @@ collections:
   pages:
     output: true
     permalink: /:path
+  events:
+    output: true
+    permalink: /events/:name
+  discography:
+    output: true
+    permalink: /music/:name
 
 defaults:
   - scope:
@@ -27,6 +31,37 @@ defaults:
       type: pages
     values:
       layout: page
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: event
+  - scope:
+      path: ""
+      type: discography
+    values:
+      layout: release
+
+navigation:
+  - title: Home
+    url: /
+  - title: Music
+    url: /music/
+  - title: Events
+    url: /events/
+  - title: About
+    url: /about/
+  - title: Journal
+    url: /journal/
+
+social:
+  youtube: "https://www.youtube.com/@gabrielafrei"
+
+hero:
+  eyebrow: Music · Faith · Story
+  title: Songs from the heart, offered with grace.
+  text: Gabriela Frei is a singer, pianist, and songwriter creating music rooted in faith, hope, and the beauty of the present moment.
+  image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMqOorH2zwHtadxSHsiBxJLW58vQXJC3BfX1JXGCwe1zVTb3zEkGEHj66e_7G7QhuBD3fz1j7appMJvC50yPdLtnMAH2mh-URq9bLAneX3jtuErhNoRmXxHsUb8QBVRhr4Xc9WS7SxiuL4/s1600/gaby2.jpg"
 
 exclude:
   - Gemfile

@@ -1,8 +1,11 @@
 ---
 layout: page
-title: About this site
-permalink: /about
+title: About Gabriela
+permalink: /about/
+eyebrow: The artist
+description: Singer, pianist, composer, and songwriter—sharing music that points toward hope.
 ---
 
-This Jekyll site contains the posts and pages migrated from the original Gabriela Frei Blogger site.
+{% assign bio = site.pages | where: "title", "About Me" | first %}
+{{ bio.content }}
 
