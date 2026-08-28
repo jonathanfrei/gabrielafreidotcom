@@ -13,6 +13,6 @@ tags:
 - Music Video
 ---
 
-<object height="300" width="400"><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=6872311&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1"/><embed allowfullscreen="true" allowscriptaccess="always" height="300" src="http://vimeo.com/moogaloop.swf?clip_id=6872311&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1" type="application/x-shockwave-flash" width="400"/></object>
+http://vimeo.com/6872311
 
 This video is from a performance my then boyfriend (now husband) [Jonathan](http://www.jonathanfrei.com/)and I did my sophomore year of college. We performed "Somewhere Over the Rainbow/What a Wonderful World."

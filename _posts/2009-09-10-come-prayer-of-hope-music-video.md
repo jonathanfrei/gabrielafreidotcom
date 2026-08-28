@@ -13,7 +13,7 @@ tags:
 - Music Video
 ---
 
-<object height="300" width="400"><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=13682175&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1"/><embed allowfullscreen="true" allowscriptaccess="always" height="300" src="http://vimeo.com/moogaloop.swf?clip_id=13682175&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1" type="application/x-shockwave-flash" width="400"/></object>
+http://vimeo.com/13682175
 
 I wrote this song specifically for funerals, to be a song of  consolation, of encouragement, of return to the Lord. Through His love  and strength alone do we conquer adversity and emerge from trial.
 

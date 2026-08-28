@@ -14,7 +14,7 @@ tags:
 - Pro-Life
 ---
 
-<object height="267" width="400"><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=6739249&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1"/><embed allowfullscreen="true" allowscriptaccess="always" height="267" src="http://vimeo.com/moogaloop.swf?clip_id=6739249&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1" type="application/x-shockwave-flash" width="400"/></object>
+http://vimeo.com/6739249
 
 **Inspiration**:
 

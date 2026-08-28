@@ -13,7 +13,7 @@ tags:
 - Music Video
 ---
 
-<embed allowfullscreen="true" allowscriptaccess="always" height="300" src="http://vimeo.com/moogaloop.swf?clip_id=9250659&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1" type="application/x-shockwave-flash" width="400"/>
+http://vimeo.com/9250659
 
 **Inspiration:**
 

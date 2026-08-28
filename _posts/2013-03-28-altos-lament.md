@@ -16,6 +16,8 @@ tags:
 thumbnail: https://img.youtube.com/vi/oFRT-EUXlxI/default.jpg
 ---
 
+https://www.youtube.com/watch?v=oFRT-EUXlxI
+
 This is my take on a fun forgotten Broadway piece titled *The Alto's Lament*, about that girl that never gets to sing the melody and have her moment to shine.
 
 **Lyrics:**

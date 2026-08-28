@@ -14,7 +14,7 @@ tags:
 thumbnail: https://img.youtube.com/vi/iOqldqeAh-Y/default.jpg
 ---
 
-<iframe allowfullscreen="" frameborder="0" height="338" src="http://www.youtube.com/embed/iOqldqeAh-Y?rel=0" width="600"></iframe>
+https://www.youtube.com/watch?v=iOqldqeAh-Y
 
 I was honored when my Diocese here in Florida requested to use my original song *The Present Moment* as the soundtrack for their 2012 year in review video. God is faithful in expanding my music ministry! Special thanks to [Bill Wagy](http://billwagyproductions.com/) for doing a great job on the video production and for reaching out to me for my music.
 

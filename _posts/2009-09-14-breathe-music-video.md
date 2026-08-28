@@ -13,7 +13,7 @@ tags:
 - Music Video
 ---
 
-<object height="300" width="400"><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=14040189&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1&autoplay=0&loop=0"/><embed allowfullscreen="true" allowscriptaccess="always" height="300" src="http://vimeo.com/moogaloop.swf?clip_id=14040189&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1&autoplay=0&loop=0" type="application/x-shockwave-flash" width="400"/></object>
+http://vimeo.com/14040189
 
 This is a powerful praise and worship anthem, one very dear to my heart and very loved by many. I hope you are blessed by this live rendition from a wedding.
 

@@ -13,7 +13,7 @@ tags:
 - Photos
 ---
 
-<object height="375" width="500"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F42651221%40N07%2Fsets%2F72157622468792653%2Fshow%2F&page_show_back_url=%2Fphotos%2F42651221%40N07%2Fsets%2F72157622468792653%2F&set_id=72157622468792653&jump_to="/><param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=71649"/><param name="allowFullScreen" value="true"/><embed allowfullscreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F42651221%40N07%2Fsets%2F72157622468792653%2Fshow%2F&page_show_back_url=%2Fphotos%2F42651221%40N07%2Fsets%2F72157622468792653%2F&set_id=72157622468792653&jump_to=" height="375" src="http://www.flickr.com/apps/slideshow/show.swf?v=71649" type="application/x-shockwave-flash" width="500"/></object>
+https://www.flickr.com/photos/42651221@N07/albums/72157622468792653
 
 These are photographs from different performances I have done.
 

@@ -13,7 +13,7 @@ tags:
 - Music Video
 ---
 
-<object height="300" width="400"><param name="allowfullscreen" value="true"/><param name="allowscriptaccess" value="always"/><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=14067666&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1&autoplay=0&loop=0"/><embed allowfullscreen="true" allowscriptaccess="always" height="300" src="http://vimeo.com/moogaloop.swf?clip_id=14067666&server=vimeo.com&show_title=0&show_byline=0&show_portrait=0&color=bc00f0&fullscreen=1&autoplay=0&loop=0" type="application/x-shockwave-flash" width="400"/></object>
+http://vimeo.com/14067666
 
 Here's a recording of a very popular church hymn, "Here I Am, Lord," performed at a wedding in Florida. I grew up with this song, as I'm sure many have. Enjoy!
 

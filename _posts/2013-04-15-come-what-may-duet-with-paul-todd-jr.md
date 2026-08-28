@@ -18,6 +18,6 @@ tags:
 thumbnail: https://img.youtube.com/vi/5A5jkISCnfo/default.jpg
 ---
 
-<iframe allowfullscreen="" frameborder="0" height="338" src="http://www.youtube.com/embed/5A5jkISCnfo?rel=0" width="600"></iframe>
+https://www.youtube.com/watch?v=5A5jkISCnfo
 
 A gorgeous duet from the movie *Moulin Rouge*. Performed in Naples at St. Agnes, with the marvelously talented [Paul Todd, Jr](http://www.paultoddjr.com/). Enjoy!
