@@ -19,9 +19,11 @@ The majority of songs on this site (unless otherwise noted) are my own musical a
 
 I hold the copyrights to all my work, and reserve all rights to it.
 
-[Buy my CD](http://www.gabrielafrei.com/2010/06/buy-my-cd.html)S!  Get a hard  copy by visiting [my sales page](http://kunaki.com/mSales.asp?PublisherId=125397), or search *gabriela frei* on iTunes for mp3 files.
+[Buy my CDs!](http://www.gabrielafrei.com/2010/06/buy-my-cd.html) Get a hard  copy by visiting [my sales page](http://kunaki.com/mSales.asp?PublisherId=125397), or search *gabriela frei* on iTunes for mp3 files.
 
-[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzEajLnqZKyB5w4KSMn5vOU2gbhaAOeMVEi8O2BdddBnAVhhZOJUDPoSjnH6mbGGcff209E_FNg5fA73FWFM5dRJr-kErWHzkb8KC1A1ndjUkMzGvWsTbKZDeEUu-zbIMMz1zxOoFVkhMG/s1600/cover.jpg)](http://kunaki.com/accounting/ShowproductDetail.asp?PID=PX00ZK5A1Y)  ![](http://kunaki.com/ProductImage.ASP?T=I&ST=FO&PID=PX00FZB601)<https://www.blogger.com/>
+[![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzEajLnqZKyB5w4KSMn5vOU2gbhaAOeMVEi8O2BdddBnAVhhZOJUDPoSjnH6mbGGcff209E_FNg5fA73FWFM5dRJr-kErWHzkb8KC1A1ndjUkMzGvWsTbKZDeEUu-zbIMMz1zxOoFVkhMG/s1600/cover.jpg)](http://kunaki.com/accounting/ShowproductDetail.asp?PID=PX00ZK5A1Y)  
+
+![](http://kunaki.com/ProductImage.ASP?T=I&ST=FO&PID=PX00FZB601)
 
 You can view any of my music videos, as well as praise and worship videos and cover videos, by clicking [here](http://www.gabrielafrei.com/search/label/Music%20Video). I also have three audio players for you to enjoy over on the right side of this website. The top one is all original work. The second one features music I have performed at weddings. The third one features popular praise and worship anthems. Enjoy!
 
