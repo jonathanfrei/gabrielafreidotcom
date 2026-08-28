@@ -13,8 +13,8 @@ tags:
 - Photos
 ---
 
-https://www.flickr.com/photos/42651221@N07/albums/72157622593311094
-
 Some musical portraits I've had taken of me.
 
 Click on the bottom right corner icon to view pictures full-screen and read the captions. Enjoy!
+
+https://www.flickr.com/photos/42651221@N07/albums/72157622593311094

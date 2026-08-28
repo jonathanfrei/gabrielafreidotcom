@@ -13,8 +13,8 @@ tags:
 - Photos
 ---
 
-https://www.flickr.com/photos/42651221@N07/albums/72157622468792653
-
 These are photographs from different performances I have done.
 
 Click on the bottom right corner icon to view pictures full-screen and read the captions. Enjoy!
+
+https://www.flickr.com/photos/42651221@N07/albums/72157622468792653

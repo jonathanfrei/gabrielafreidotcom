@@ -13,8 +13,8 @@ tags:
 - Photos
 ---
 
-https://www.flickr.com/photos/42651221@N07/albums/72157622468225709
-
 Some miscellaneous and fun photographs from my collection.
 
 Click on the bottom right corner icon to view the pictures full-screen and read the captions. Enjoy!
+
+https://www.flickr.com/photos/42651221@N07/albums/72157622468225709
