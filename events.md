@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Events
+permalink: /events/
 eyebrow: Gather
 description: Concerts, community events, and opportunities to worship together.
 ---
