@@ -23,8 +23,12 @@ module ResponsiveMediaEmbeds
     case host
     when "youtu.be", "youtube.com", "m.youtube.com"
       youtube_embed(uri, host)
+    when "vimeo.com", "player.vimeo.com"
+      vimeo_embed(uri)
     when "soundcloud.com", "m.soundcloud.com"
       soundcloud_embed(url)
+    when "flickr.com", "m.flickr.com"
+      flickr_embed(uri)
     end
   rescue URI::InvalidURIError
     nil
@@ -54,6 +58,30 @@ module ResponsiveMediaEmbeds
     <<~HTML
       <div class="media-embed media-embed--soundcloud">
         <iframe src="https://w.soundcloud.com/player/?url=#{encoded_url}&amp;color=%23000000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=false" title="SoundCloud audio player" loading="lazy" allow="autoplay"></iframe>
+      </div>
+    HTML
+  end
+
+  def vimeo_embed(uri)
+    segments = uri.path.split("/").reject(&:empty?)
+    video_id = segments.reverse.find { |segment| segment.match?(/\A\d+\z/) }
+    return unless video_id
+
+    <<~HTML
+      <div class="media-embed media-embed--video">
+        <iframe src="https://player.vimeo.com/video/#{video_id}?dnt=1" title="Vimeo video player" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    HTML
+  end
+
+  def flickr_embed(uri)
+    match = uri.path.match(%r{\A/photos/([A-Za-z0-9@_-]+)/(\d+)/?\z})
+    return unless match
+
+    user_id, photo_id = match.captures
+    <<~HTML
+      <div class="media-embed media-embed--flickr">
+        <iframe src="https://embedr.flickr.com/photos/#{user_id}/#{photo_id}" title="Flickr photo" loading="lazy" allowfullscreen></iframe>
       </div>
     HTML
   end

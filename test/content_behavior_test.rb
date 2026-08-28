@@ -9,10 +9,14 @@ end
 
 youtube = ResponsiveMediaEmbeds.transform("https://youtu.be/dQw4w9WgXcQ\n")
 soundcloud = ResponsiveMediaEmbeds.transform("https://soundcloud.com/artist/track\n")
+vimeo = ResponsiveMediaEmbeds.transform("https://vimeo.com/76979871\n")
+flickr = ResponsiveMediaEmbeds.transform("https://www.flickr.com/photos/bees/155761353\n")
 inline_link = ResponsiveMediaEmbeds.transform("Listen at https://youtu.be/dQw4w9WgXcQ today.\n")
 
 assert(youtube.include?("youtube-nocookie.com/embed/dQw4w9WgXcQ"), "YouTube embed conversion failed")
 assert(soundcloud.include?("w.soundcloud.com/player/"), "SoundCloud embed conversion failed")
+assert(vimeo.include?("player.vimeo.com/video/76979871"), "Vimeo embed conversion failed")
+assert(flickr.include?("embedr.flickr.com/photos/bees/155761353"), "Flickr embed conversion failed")
 assert(inline_link == "Listen at https://youtu.be/dQw4w9WgXcQ today.\n", "Inline media link was changed")
 
 site = Jekyll::Site.new(Jekyll.configuration)

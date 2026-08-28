@@ -26,3 +26,11 @@
 .media-embed--soundcloud iframe {
   height: 166px;
 }
+
+.media-embed--flickr {
+  aspect-ratio: 4 / 3;
+}
+
+.media-embed--flickr iframe {
+  height: 100%;
+}
