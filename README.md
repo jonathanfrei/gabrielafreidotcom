@@ -6,7 +6,7 @@ Jekyll source for the Gabriela Frei website, including content migrated from the
 
 ```sh
 bundle install
-bundle exec jekyll serve
+bundle exec ruby script/jekyll.rb serve
 ```
 
 The local preview is available at <http://localhost:4000>.
