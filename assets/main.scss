@@ -9,9 +9,11 @@
   width: 100%;
 }
 
-.media-embed iframe {
+.media-embed iframe,
+.media-embed img {
   border: 0;
   display: block;
+  max-width: 100%;
   width: 100%;
 }
 
@@ -29,8 +31,11 @@
 
 .media-embed--flickr {
   aspect-ratio: 4 / 3;
+  overflow: hidden;
 }
 
-.media-embed--flickr iframe {
+.media-embed--flickr iframe,
+.media-embed--flickr img {
   height: 100%;
+  object-fit: cover;
 }

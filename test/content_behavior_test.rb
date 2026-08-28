@@ -12,12 +12,15 @@ youtube = ResponsiveMediaEmbeds.transform("https://youtu.be/dQw4w9WgXcQ\n")
 soundcloud = ResponsiveMediaEmbeds.transform("https://soundcloud.com/artist/track\n")
 vimeo = ResponsiveMediaEmbeds.transform("https://vimeo.com/76979871\n")
 flickr = ResponsiveMediaEmbeds.transform("https://www.flickr.com/photos/bees/155761353\n")
+flickr_album_url = "https://www.flickr.com/photos/42651221@N07/albums/72157622468792653"
+flickr_album = ResponsiveMediaEmbeds.transform("#{flickr_album_url}\n")
 inline_link = ResponsiveMediaEmbeds.transform("Listen at https://youtu.be/dQw4w9WgXcQ today.\n")
 
 assert(youtube.include?("youtube-nocookie.com/embed/dQw4w9WgXcQ"), "YouTube embed conversion failed")
 assert(soundcloud.include?("w.soundcloud.com/player/"), "SoundCloud embed conversion failed")
 assert(vimeo.include?("player.vimeo.com/video/76979871"), "Vimeo embed conversion failed")
-assert(flickr.include?("embedr.flickr.com/photos/bees/155761353"), "Flickr embed conversion failed")
+assert(flickr.include?("data-flickr-embed"), "Flickr photo embed conversion failed")
+assert(flickr_album.include?("data-flickr-embed"), "Flickr album embed conversion failed")
 assert(inline_link == "Listen at https://youtu.be/dQw4w9WgXcQ today.\n", "Inline media link was changed")
 
 Dir.mktmpdir("gabrielafrei-jekyll-test") do |destination|
@@ -47,6 +50,15 @@ Dir.mktmpdir("gabrielafrei-jekyll-test") do |destination|
   love_html = File.read(love_post.destination(destination))
   assert(love_html.include?("player.vimeo.com/video/7000100"), "Vimeo post did not render an embed")
   assert(!love_html.include?("<p>https://vimeo.com/7000100</p>"), "Vimeo URL remained visible")
+
+  performances_post = site.posts.docs.find { |document| document.basename_without_ext.include?("performances") }
+  performances_html = File.read(performances_post.destination(destination))
+  assert(performances_html.include?("data-flickr-embed"), "Flickr gallery did not render an embed")
+  assert(!performances_html.include?("<p>#{flickr_album_url}</p>"), "Flickr gallery URL remained visible")
+
+  stylesheet = File.read(File.join(destination, "assets", "main.css"))
+  assert(stylesheet.include?(".media-embed--video"), "Responsive embed CSS was not compiled")
+  assert(stylesheet.match?(/aspect-ratio:\s*16\s*\/\s*9/), "Responsive video aspect ratio was not compiled")
 end
 
 puts "Content behavior checks passed"
