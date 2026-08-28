@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '9030357507105151110'
-permalink: /2010/06/why-cant-you-just-take-nap.html
+old_permalink: /2010/06/why-cant-you-just-take-nap.html
 tags:
 - motherhood
 - selflessness

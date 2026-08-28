@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '6864948297077508814'
-permalink: /2009/09/she-said-yes-three-part-philosophy-of.html
+old_permalink: /2009/09/she-said-yes-three-part-philosophy-of.html
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkem-TM7X_3Xr8hO46KkPWFLwXIglHI24YmuEqNlFpzUYHBmbZxs5ny0XkMGEQ5OMYUhKPr3NfA-mGCE0wtLd26HbTdGy-yTqhXKdne0SFSAcpZRlJuWB21xb7Tu6ScBcZrEreG5p-oJk/s72-c/rings.jpg
 ---
 

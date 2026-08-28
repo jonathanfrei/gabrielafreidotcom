@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '7987624997456985803'
-permalink: /2010/07/god-bless-america.html
+old_permalink: /2010/07/god-bless-america.html
 thumbnail: http://farm4.static.flickr.com/3105/2863097183_264afb8dbb_t.jpg
 ---
 

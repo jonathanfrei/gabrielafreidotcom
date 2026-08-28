@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '8554229010591383948'
-permalink: /2009/09/die-to-self.html
+old_permalink: /2009/09/die-to-self.html
 tags:
 - baby
 - difficulty

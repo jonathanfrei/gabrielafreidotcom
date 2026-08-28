@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '6472330809718465882'
-permalink: /2011/04/loss-and-healing-life-after-my.html
+old_permalink: /2011/04/loss-and-healing-life-after-my.html
 tags:
 - healing
 - higher purpose

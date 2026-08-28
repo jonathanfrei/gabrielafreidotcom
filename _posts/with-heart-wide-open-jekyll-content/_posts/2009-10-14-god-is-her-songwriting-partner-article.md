@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '6094706315425289121'
-permalink: /2009/10/god-is-her-songwriting-partner-article.html
+old_permalink: /2009/10/god-is-her-songwriting-partner-article.html
 tags:
 - article
 - ministry

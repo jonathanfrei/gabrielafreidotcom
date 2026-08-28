@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '8471398110994781806'
-permalink: /2010/07/how-to-retain-your-sanity.html
+old_permalink: /2010/07/how-to-retain-your-sanity.html
 tags:
 - intellectual growth
 - motherhood

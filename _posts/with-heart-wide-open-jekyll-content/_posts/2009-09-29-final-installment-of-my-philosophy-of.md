@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '1303844664643630977'
-permalink: /2009/09/final-installment-of-my-philosophy-of.html
+old_permalink: /2009/09/final-installment-of-my-philosophy-of.html
 tags:
 - engagement
 - love

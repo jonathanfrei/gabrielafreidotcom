@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '7658397476523985214'
-permalink: /2011/05/marriage-is-what-brings-us-together.html
+old_permalink: /2011/05/marriage-is-what-brings-us-together.html
 tags:
 - love
 - marriage

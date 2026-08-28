@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '3832588450701984005'
-permalink: /2011/05/one-of-great-things-about-having-kid.html
+old_permalink: /2011/05/one-of-great-things-about-having-kid.html
 tags:
 - mistakes
 - motherhood

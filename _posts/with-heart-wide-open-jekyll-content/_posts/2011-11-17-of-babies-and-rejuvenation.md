@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '1630498045029507390'
-permalink: /2011/11/of-babies-and-rejuvenation.html
+old_permalink: /2011/11/of-babies-and-rejuvenation.html
 tags:
 - joy
 - motherhood

@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '719301152710105989'
-permalink: /2010/06/who-am-i-lord.html
+old_permalink: /2010/06/who-am-i-lord.html
 tags:
 - gifts
 - ministry

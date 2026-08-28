@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '6969590424533077179'
-permalink: /2012/05/god-grant-me-patience.html
+old_permalink: /2012/05/god-grant-me-patience.html
 tags:
 - ministry
 - patience

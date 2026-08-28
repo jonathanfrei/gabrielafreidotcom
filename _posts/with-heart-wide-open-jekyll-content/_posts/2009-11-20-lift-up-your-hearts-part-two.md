@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '2846640375281525430'
-permalink: /2009/11/lift-up-your-hearts-part-two.html
+old_permalink: /2009/11/lift-up-your-hearts-part-two.html
 tags:
 - difficulty
 - hope

@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '8816066631434269692'
-permalink: /2011/05/i-was-going-to-write-about-something.html
+old_permalink: /2011/05/i-was-going-to-write-about-something.html
 tags:
 - ministry
 - wisdom

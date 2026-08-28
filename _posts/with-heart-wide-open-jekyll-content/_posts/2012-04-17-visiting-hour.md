@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '8782957205182655335'
-permalink: /2012/04/visiting-hour.html
+old_permalink: /2012/04/visiting-hour.html
 tags:
 - adoration
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCn363CG_IbXdnP_I0my80rYdJ9vnBRqQI2KF8m3b8nkLOeNkrSb2tPzSm_3a6g6iXrS-nbSHX2B4FglQNPBo8YWfsustwbTk3BRN8qCxZ93_FPURW9ALNuToxKq4Cwj0e7IMSjBcNegk/s72-c/sig6.png

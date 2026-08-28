@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '1532883391473232871'
-permalink: /2009/10/let-my-love-song-sing-to-you-part-2-of.html
+old_permalink: /2009/10/let-my-love-song-sing-to-you-part-2-of.html
 tags:
 - Augustine
 - jubilation

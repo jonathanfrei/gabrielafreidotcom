@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '6945659310450150962'
-permalink: /2010/03/not-my-will-but-yours.html
+old_permalink: /2010/03/not-my-will-but-yours.html
 tags:
 - ministry
 - motherhood

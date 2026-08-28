@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '3148349467731611283'
-permalink: /2012/02/photo-card.html
+old_permalink: /2012/02/photo-card.html
 ---
 
 ![](http://cdn.staticsfly.com/img_/share/preview/msc/widget/logo.gif)

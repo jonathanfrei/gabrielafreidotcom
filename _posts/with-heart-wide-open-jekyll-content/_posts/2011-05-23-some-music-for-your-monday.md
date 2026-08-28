@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '3936997271758337798'
-permalink: /2011/05/some-music-for-your-monday.html
+old_permalink: /2011/05/some-music-for-your-monday.html
 tags:
 - music
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf5bOY5j64Ui4sI0AgoUQfNsuKJft9M9jA-xgyoO_520-VVDjCd6jrsx8E4lmhBtRAEUlZDgssR2gLSyyuCal5oDYJ5v-sWGqzkZfnoU00F7oZd0edHlKo4-kMoDXsuNWCteYvbZuffg0/s72-c/sig6.png

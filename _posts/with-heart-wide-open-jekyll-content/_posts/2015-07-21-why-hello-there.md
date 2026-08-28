@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '7959998972844521824'
-permalink: /2015/07/why-hello-there.html
+old_permalink: /2015/07/why-hello-there.html
 tags:
 - encounter with God
 - peace

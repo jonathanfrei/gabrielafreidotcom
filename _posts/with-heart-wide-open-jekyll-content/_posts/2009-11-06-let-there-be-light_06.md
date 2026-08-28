@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '5077019983014117125'
-permalink: /2009/11/let-there-be-light_06.html
+old_permalink: /2009/11/let-there-be-light_06.html
 tags:
 - hope
 - ministry

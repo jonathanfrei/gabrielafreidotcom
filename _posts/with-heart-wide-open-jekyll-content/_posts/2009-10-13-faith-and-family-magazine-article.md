@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '382203915075275926'
-permalink: /2009/10/faith-and-family-magazine-article.html
+old_permalink: /2009/10/faith-and-family-magazine-article.html
 tags:
 - liturgy
 - music

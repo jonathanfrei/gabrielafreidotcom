@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '8797775698487851502'
-permalink: /2009/11/what-ive-learned-from-prayer-group-and.html
+old_permalink: /2009/11/what-ive-learned-from-prayer-group-and.html
 tags:
 - Augustine
 - ministry

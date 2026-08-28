@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '444762844191206251'
-permalink: /2011/06/empty-hands-raised.html
+old_permalink: /2011/06/empty-hands-raised.html
 tags:
 - empty
 - ministry

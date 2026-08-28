@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '5975927287371301059'
-permalink: /2010/08/longing-for-more-more-music-videos.html
+old_permalink: /2010/08/longing-for-more-more-music-videos.html
 tags:
 - gratitude
 - meaning

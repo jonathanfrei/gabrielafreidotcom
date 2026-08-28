@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '7335456425306558144'
-permalink: /2012/04/nuggets-for-your-wednesday.html
+old_permalink: /2012/04/nuggets-for-your-wednesday.html
 tags:
 - Easter
 - resurrection

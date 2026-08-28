@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '20336677139835322'
-permalink: /2011/05/ever-feel-empty-inside.html
+old_permalink: /2011/05/ever-feel-empty-inside.html
 tags:
 - identity
 - ministry

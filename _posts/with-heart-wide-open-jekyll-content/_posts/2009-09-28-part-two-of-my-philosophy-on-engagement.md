@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '3992868780669743962'
-permalink: /2009/09/part-two-of-my-philosophy-on-engagement.html
+old_permalink: /2009/09/part-two-of-my-philosophy-on-engagement.html
 tags:
 - engagement
 - love

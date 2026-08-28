@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '1934151393124045197'
-permalink: /2009/10/crooked-lines-made-straight.html
+old_permalink: /2009/10/crooked-lines-made-straight.html
 tags:
 - challenge
 - joys

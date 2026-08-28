@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '7010333869274952011'
-permalink: /2010/06/father-is-wonderful-thing.html
+old_permalink: /2010/06/father-is-wonderful-thing.html
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ5L2_XQAmpeZ_yyg9f__djG-Kj9w-hIDja9FCMryRZ95zV0ild-gBZ-oTgIMA5-Fihr3s0Ja4-1BjkmoJ6v7VfPZm4rDyaCk-dgYz7-IqpPlSJWl5lHyWeBcB2EaJshKb4KyNtvdJwwo/s72-c/1.jpg
 ---
 

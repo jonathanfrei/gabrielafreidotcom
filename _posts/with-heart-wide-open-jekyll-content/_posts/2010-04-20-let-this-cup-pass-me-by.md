@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '2452819129232586938'
-permalink: /2010/04/let-this-cup-pass-me-by.html
+old_permalink: /2010/04/let-this-cup-pass-me-by.html
 tags:
 - difficulty
 - motherhood

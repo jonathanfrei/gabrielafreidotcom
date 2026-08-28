@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '3413881948612801759'
-permalink: /2011/05/we-all-scream-for-ice-cream.html
+old_permalink: /2011/05/we-all-scream-for-ice-cream.html
 tags:
 - beauty
 - ministry

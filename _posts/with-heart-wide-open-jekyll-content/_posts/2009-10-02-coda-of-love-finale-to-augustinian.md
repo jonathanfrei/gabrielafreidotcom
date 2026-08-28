@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '8718655444204611351'
-permalink: /2009/10/coda-of-love-finale-to-augustinian.html
+old_permalink: /2009/10/coda-of-love-finale-to-augustinian.html
 tags:
 - Augustine
 - love song

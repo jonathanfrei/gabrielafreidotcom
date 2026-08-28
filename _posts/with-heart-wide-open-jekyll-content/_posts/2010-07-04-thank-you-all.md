@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '606100751058431774'
-permalink: /2010/07/thank-you-all.html
+old_permalink: /2010/07/thank-you-all.html
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_8Lv-nVGqaJCYsmhjton3O6wJURdWcBXN6ayP9SqoD6Neg51yI1vjBm4pndUhK3QkxHHuxnXErJLKsCjodXUDl2yZbqpXl-f_-9LD8FP5STTWNIH9wf7bGp6evjZ0S97m-JeM_r2NTKY/s72-c/IMG_5623.JPG
 ---
 

@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '2145246029439699608'
-permalink: /2012/03/way-of-peaceful-parent.html
+old_permalink: /2012/03/way-of-peaceful-parent.html
 tags:
 - parenting
 - peace

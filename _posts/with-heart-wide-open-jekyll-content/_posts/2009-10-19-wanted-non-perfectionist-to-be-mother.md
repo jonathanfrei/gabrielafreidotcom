@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '6652597829456030580'
-permalink: /2009/10/wanted-non-perfectionist-to-be-mother.html
+old_permalink: /2009/10/wanted-non-perfectionist-to-be-mother.html
 tags:
 - grace
 - ministry

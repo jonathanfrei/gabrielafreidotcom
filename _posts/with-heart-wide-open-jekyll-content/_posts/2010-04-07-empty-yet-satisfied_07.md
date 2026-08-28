@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '1541617900985085911'
-permalink: /2010/04/empty-yet-satisfied_07.html
+old_permalink: /2010/04/empty-yet-satisfied_07.html
 thumbnail: http://farm1.static.flickr.com/113/315645438_4c7de21a58_t.jpg
 ---
 

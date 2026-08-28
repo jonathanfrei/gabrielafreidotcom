@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '6343402445061305437'
-permalink: /2010/07/new-song-come-prayer-of-hope.html
+old_permalink: /2010/07/new-song-come-prayer-of-hope.html
 tags:
 - music
 - music video

@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '6989678254826187695'
-permalink: /2011/05/heart-prayer.html
+old_permalink: /2011/05/heart-prayer.html
 tags:
 - ministry
 - prayer

@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '1055614259999092083'
-permalink: /2011/06/things-to-be-desired.html
+old_permalink: /2011/06/things-to-be-desired.html
 tags:
 - ministry
 - peace

@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '6935645096815123037'
-permalink: /2012/04/as-child-rests-in-his-mothers-arms-so.html
+old_permalink: /2012/04/as-child-rests-in-his-mothers-arms-so.html
 tags:
 - baby
 - peace

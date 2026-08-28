@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '7826186383934770403'
-permalink: /2011/04/prerequisites-for-sainthood.html
+old_permalink: /2011/04/prerequisites-for-sainthood.html
 tags:
 - prayer
 - trust

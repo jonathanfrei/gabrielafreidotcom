@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '96678382317059749'
-permalink: /2012/06/stand-up-for-religious-freedom.html
+old_permalink: /2012/06/stand-up-for-religious-freedom.html
 tags:
 - America
 - freedom

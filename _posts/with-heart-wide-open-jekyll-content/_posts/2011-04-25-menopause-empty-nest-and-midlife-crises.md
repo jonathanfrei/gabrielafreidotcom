@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '7896754804375715270'
-permalink: /2011/04/menopause-empty-nest-and-midlife-crises.html
+old_permalink: /2011/04/menopause-empty-nest-and-midlife-crises.html
 tags:
 - book of the day
 - motherhood

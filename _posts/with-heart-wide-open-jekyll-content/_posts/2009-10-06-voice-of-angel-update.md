@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '1177178242823496267'
-permalink: /2009/10/voice-of-angel-update.html
+old_permalink: /2009/10/voice-of-angel-update.html
 tags:
 - music
 - Voice of An Angel

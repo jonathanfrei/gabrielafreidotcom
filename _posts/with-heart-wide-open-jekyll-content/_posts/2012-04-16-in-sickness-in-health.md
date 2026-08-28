@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '5121556654002377609'
-permalink: /2012/04/in-sickness-in-health.html
+old_permalink: /2012/04/in-sickness-in-health.html
 tags:
 - patience
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGODk8CoRwR4EbYQUUmupieIuQhjjbkot9XrwcKCS3ueb9h3Nd1RxEFv7kXPAfp-D5vhzZsCZHIO2Ke3hPjBrN_a9h5inpSJHm0TZazimB0aBmZE3eMad2P9Oypmsich5XyXFIV8ofm6g/s72-c/sad+face.jpg

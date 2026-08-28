@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '3891456397658122525'
-permalink: /2012/05/i-have-been-meditating-of-late-on-vast.html
+old_permalink: /2012/05/i-have-been-meditating-of-late-on-vast.html
 tags:
 - beauty
 - motherhood

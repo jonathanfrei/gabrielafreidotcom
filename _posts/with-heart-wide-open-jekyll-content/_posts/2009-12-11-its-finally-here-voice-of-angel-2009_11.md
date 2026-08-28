@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '16565540143150196'
-permalink: /2009/12/its-finally-here-voice-of-angel-2009_11.html
+old_permalink: /2009/12/its-finally-here-voice-of-angel-2009_11.html
 tags:
 - music
 - Semifinals

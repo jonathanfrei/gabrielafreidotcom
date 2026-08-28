@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '8145208530475674761'
-permalink: /2009/09/new-beginnings.html
+old_permalink: /2009/09/new-beginnings.html
 tags:
 - Catholic
 - challenge

@@ -8,7 +8,7 @@ author: Anonymous
 author_url: http://www.blogger.com/profile/03402711493584652901
 blogger_blog_id: '2062125835187935806'
 blogger_id: '4962271973733762310'
-permalink: /2013/04/weakness-for-good-romance.html
+old_permalink: /2013/04/weakness-for-good-romance.html
 tags:
 - love
 - ministry
