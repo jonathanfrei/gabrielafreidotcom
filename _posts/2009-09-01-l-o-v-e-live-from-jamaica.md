@@ -13,7 +13,7 @@ tags:
 - Music Video
 ---
 
-While [Jonathan](http://www.jonathanfrei.com/) and I were on our honeymoon, we visited the resort's piano bar a few times. We very much enjoyed the fun atmosphere and the fantastic pianist. I had the pleasure of singing "L-O-V-E" to a very spirited accompaniment, and am glad finally to be able to upload the video. So here it is: "L-O-V-E" live from the piano bar of Sandals Ocho Rios in Jamaica!
+While [Jonathan](http://www.jonathanfrei.com/) and I were on our honeymoon, we visited the resort's piano bar a few times. We very much enjoyed the fun atmosphere and the fantastic pianist. I had the pleasure of singing "L-O-V-E" to a very spirited accompaniment, and am glad finally to be able to upload the video. So here it is: "L-O-V-E" live from the piano bar of Sandals Ocho Rios in Jamaica! 
 
 https://vimeo.com/7000100
 
