@@ -16,7 +16,7 @@ tags:
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijhyphenhyphenmZ91EA6QJK58HyKMn-bDOiYJ7ASqZBoMozpRruUBYdJwoiJwYFpnOjoHyLmEDWifoHFkyCJlH-fydHTIIHu6Qyzp9o_8LD04DXvM9M-SF9etylZPdRH-ZQTfzYcQcc4pI6CIxcxo8/s72-c/IMG_6456-1.JPG
 ---
 
-<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijhyphenhyphenmZ91EA6QJK58HyKMn-bDOiYJ7ASqZBoMozpRruUBYdJwoiJwYFpnOjoHyLmEDWifoHFkyCJlH-fydHTIIHu6Qyzp9o_8LD04DXvM9M-SF9etylZPdRH-ZQTfzYcQcc4pI6CIxcxo8/s1600-h/IMG_6456-1.JPG>
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijhyphenhyphenmZ91EA6QJK58HyKMn-bDOiYJ7ASqZBoMozpRruUBYdJwoiJwYFpnOjoHyLmEDWifoHFkyCJlH-fydHTIIHu6Qyzp9o_8LD04DXvM9M-SF9etylZPdRH-ZQTfzYcQcc4pI6CIxcxo8/s1600-h/IMG_6456-1.JPG)
 
 I have several good friends who were pregnant around the same time as I was. Now that we have had our babies, the topic often comes up of who our babies most resemble. Is the wee one a mirror image of mommy? Or perhaps the spitting image of daddy? I find myself scrutinizing every inch of Matthew, trying to find the vestiges of myself in him amongst the mountains of DNA he inherited from his daddy. He has my eyes, my ears, and my mouth. All good things, I think.
 
