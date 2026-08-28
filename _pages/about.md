@@ -1,5 +1,8 @@
 ---
 layout: page
+eyebrow: The artist
+description: Singer, pianist, composer, and songwriter—sharing music that points toward hope.
+layout: page
 title: About Me
 date: '1985-09-28T16:35:00.007-04:00'
 last_modified_at: '2014-10-01T12:09:30.292-04:00'
@@ -10,6 +13,10 @@ blogger_blog_id: '3258047015019761592'
 blogger_id: '6731621691490217417'
 thumbnail: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMqOorH2zwHtadxSHsiBxJLW58vQXJC3BfX1JXGCwe1zVTb3zEkGEHj66e_7G7QhuBD3fz1j7appMJvC50yPdLtnMAH2mh-URq9bLAneX3jtuErhNoRmXxHsUb8QBVRhr4Xc9WS7SxiuL4/s72-c/gaby2.jpg
 ---
+
+{% assign bio = site.pages | where: "title", "About Me" | first %}
+{{ bio.content }}
+
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMqOorH2zwHtadxSHsiBxJLW58vQXJC3BfX1JXGCwe1zVTb3zEkGEHj66e_7G7QhuBD3fz1j7appMJvC50yPdLtnMAH2mh-URq9bLAneX3jtuErhNoRmXxHsUb8QBVRhr4Xc9WS7SxiuL4/s1600/gaby2.jpg)
 
