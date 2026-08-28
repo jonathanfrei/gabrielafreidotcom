@@ -25,6 +25,6 @@ She was married in 2008 to the man of her dreams, [Jonathan Frei](http://www.jon
 
 Please keep her in prayer, that God's will might be done for her life, and His glory achieved through her gift of music.
 
-<https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl6oLafTqp8Y6JzMEGTQRXs4dhlcYBWkOM0G5NCLashzdugglqTPFMQm9eQLVFv4LF4oaWs1yejCta1TL_DfL7CFAwzB-YQb7t024BJT2T7WDvs_m-M89aiMjsvtARItPVdtPVhlq86JZ-/s1600/IMG_3020.JPG>
+![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl6oLafTqp8Y6JzMEGTQRXs4dhlcYBWkOM0G5NCLashzdugglqTPFMQm9eQLVFv4LF4oaWs1yejCta1TL_DfL7CFAwzB-YQb7t024BJT2T7WDvs_m-M89aiMjsvtARItPVdtPVhlq86JZ-/s1600/IMG_3020.JPG)
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9mdHuPLx5YSDX76Lp-42dDLw2KhjYf4aLYRoyRtxlr1gESLXQ4BUkg50HRD_mmvLGFLHYVLfG7dEB8UimUS9YaDWcfD-E3ogtx7owZ2oklR4Lb5T9UWxJb9LXnPQw7NCj0sGpG02FA4Da/s1600/IMG_7901.JPG)
