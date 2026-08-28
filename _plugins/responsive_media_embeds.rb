@@ -91,6 +91,10 @@ Jekyll::Hooks.register :documents, :pre_render do |document|
   document.content = ResponsiveMediaEmbeds.transform(document.content)
 end
 
+Jekyll::Hooks.register :posts, :pre_render do |post|
+  post.content = ResponsiveMediaEmbeds.transform(post.content)
+end
+
 Jekyll::Hooks.register :pages, :pre_render do |page|
   page.content = ResponsiveMediaEmbeds.transform(page.content)
 end

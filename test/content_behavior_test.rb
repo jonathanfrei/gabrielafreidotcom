@@ -2,6 +2,7 @@
 
 require "jekyll"
 require_relative "../_plugins/responsive_media_embeds"
+require "tmpdir"
 
 def assert(condition, message)
   abort(message) unless condition
@@ -19,17 +20,33 @@ assert(vimeo.include?("player.vimeo.com/video/76979871"), "Vimeo embed conversio
 assert(flickr.include?("embedr.flickr.com/photos/bees/155761353"), "Flickr embed conversion failed")
 assert(inline_link == "Listen at https://youtu.be/dQw4w9WgXcQ today.\n", "Inline media link was changed")
 
-site = Jekyll::Site.new(Jekyll.configuration)
-site.read
+Dir.mktmpdir("gabrielafrei-jekyll-test") do |destination|
+  configuration = Jekyll.configuration(
+    "destination" => destination,
+    "quiet" => true
+  )
+  site = Jekyll::Site.new(configuration)
+  site.process
 
-page_urls = site.collections.fetch("pages").docs.map(&:url)
-assert((["/welcome", "/on-demand"] - page_urls).empty?, "Collection page permalink check failed")
+  page_urls = site.collections.fetch("pages").docs.map(&:url)
+  assert((["/welcome", "/on-demand"] - page_urls).empty?, "Collection page permalink check failed")
 
-post = site.posts.docs.find { |document| document.basename_without_ext.include?("come-what-may") }
-expected_post_url = "/2013/04/15/come-what-may-duet-with-paul-todd-jr"
-assert(post&.url == expected_post_url, "Post permalink check failed: #{post&.url}")
+  post = site.posts.docs.find { |document| document.basename_without_ext.include?("come-what-may") }
+  expected_post_url = "/2013/04/15/come-what-may-duet-with-paul-todd-jr"
+  assert(post&.url == expected_post_url, "Post permalink check failed: #{post&.url}")
 
-home = site.pages.find { |page| page.name == "index.md" }
-assert(home&.url == "/", "Home permalink check failed: #{home&.url}")
+  home = site.pages.find { |page| page.name == "index.md" }
+  assert(home&.url == "/", "Home permalink check failed: #{home&.url}")
+
+  peace_post = site.posts.docs.find { |document| document.basename_without_ext.include?("peace-in-jesus") }
+  peace_html = File.read(peace_post.destination(destination))
+  assert(peace_html.include?("youtube-nocookie.com/embed/agLnWHrh3k8"), "YouTube post did not render an embed")
+  assert(!peace_html.include?("<p>https://www.youtube.com/watch"), "YouTube URL remained visible")
+
+  love_post = site.posts.docs.find { |document| document.basename_without_ext.include?("l-o-v-e-live") }
+  love_html = File.read(love_post.destination(destination))
+  assert(love_html.include?("player.vimeo.com/video/7000100"), "Vimeo post did not render an embed")
+  assert(!love_html.include?("<p>https://vimeo.com/7000100</p>"), "Vimeo URL remained visible")
+end
 
 puts "Content behavior checks passed"
