@@ -1,0 +1,33 @@
+title: Gabriela Frei
+description: Music, performances, reflections, and news from Gabriela Frei.
+url: "https://www.gabrielafrei.com"
+baseurl: ""
+timezone: America/New_York
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
