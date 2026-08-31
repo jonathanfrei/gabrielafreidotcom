@@ -10,10 +10,10 @@ description: Music, performances, reflections, and news from Gabriela’s archiv
 
 {% assign site_pages = site.pages | sort: "date" | reverse %}
 {% for item in site_pages %}
-- [{{ item.title }}]({{ item.url | relative_url }})
-{% endfor %}
 
-## Posts 
+- [{{ item.title }}]({{ item.url | relative_url }}) {% endfor %}
+
+## Posts
 
 {% for post in site.posts %}
 <p class="card-meta">{{ post.date | date: "%B %-d, %Y" }}</p>

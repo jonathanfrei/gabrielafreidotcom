@@ -67,4 +67,17 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - AGENTS.md
+  - CONTRIBUTING.md
   - vendor
+  - node_modules
+  - package.json
+  - package-lock.json
+  - eslint.config.js
+  - stylelint.config.js
+  - .prettierrc.json
+  - .prettierignore
+  - .editorconfig
+  - .vscode
+  - .githooks
+  - script/sync-agent-docs.rb

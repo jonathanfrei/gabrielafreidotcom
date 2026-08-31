@@ -1,0 +1,14 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+node_modules/
+Gemfile.lock
+package-lock.json
+_posts/
+_pages/
+_discography/
+_events/
+_posts/with-heart-wide-open-jekyll-content/
+_includes/
+_layouts/

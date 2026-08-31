@@ -3,3 +3,7 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 vendor/
+node_modules/
+.bundle/
+# keep opencode local state out of git if present
+.opencode/

@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+# Lightweight pre-commit — mirrors CI checks, fast-fail on content behavior
+set -e
+echo "pre-commit: content_behavior_test..."
+bundle exec ruby test/content_behavior_test.rb
+if [ -f "package.json" ] && command -v npm >/dev/null 2>&1; then
+  if [ -d "node_modules" ]; then
+    echo "pre-commit: eslint/stylelint (if changed)..."
+    # only lint JS/SCSS if staged
+    if git diff --cached --name-only | grep -Eq '\.(js|scss|css)$'; then
+      npm run lint:js --silent || true
+      npm run lint:css --silent || true
+    fi
+  fi
+fi
