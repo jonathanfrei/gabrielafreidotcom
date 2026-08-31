@@ -11,7 +11,7 @@
     "format:check": "prettier --check \"*.{js,json,md,yml,yaml}\" \"assets/**/*.{js,css,scss}\" \"_sass/**/*.{scss,css}\" \".github/**/*.{yml,yaml,md}\" \".vscode/*.json\""
   },
   "devDependencies": {
-    "eslint": "^9.18.0",
+    "eslint": "^10.9.1",
     "globals": "^15.14.0",
     "prettier": "^3.4.2",
     "stylelint": "^16.12.0",
