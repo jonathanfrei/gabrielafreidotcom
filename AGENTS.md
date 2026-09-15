@@ -36,7 +36,7 @@ npm run format        # prettier --write
 | ------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
 | Global config       | `_config.yml:1`                                                                 | navigation, `social.youtube`, `hero.*`, `collections`, `defaults`, `exclude`                                       |
 | Tokens              | `_sass/_tokens.scss:1`                                                          | CSS variables — edit colors/shadows/fonts here only                                                                |
-| Styles              | `assets/main.scss:1`                                                            | single stylesheet (planned split to `_sass/_base                                                                   | _layout | _components.scss`) |
+| Styles              | `assets/main.scss:1`, `_sass/_*.scss`                                           | entrypoint imports tokens, base, layout, components, utilities, and responsive partials                            |
 | JS                  | `assets/js/site.js:1`                                                           | nav toggle `.nav-toggle`/`is-open`, theme toggle `localStorage.theme` + `data-theme`, accordion, lightbox `dialog` |
 | Layouts             | `_layouts/{default,home,page,post,event,release}.html`                          | `home.html:1` = hero + quick-grid + latest 3 posts                                                                 |
 | Includes            | `_includes/{head,header,footer}.html`                                           | `header.html:7` brand + nav + theme button                                                                         |
@@ -62,11 +62,10 @@ Optional description (Markdown).
 ```
 
 - `event_date` must include timezone offset (`-0400`) — `events.md:7` compares
-  `site.time | date: "%Y-%m-%d"` with `timezone: America/New_York`.
+  Unix timestamps so the event and `site.time` represent unambiguous instants.
 - Collection permalink `permalink: /appearances/:name` (`_config.yml:17`) so
   `/events` index doesn't collide with detail pages.
-- `events.md:12` splits upcoming/past at build time; string comparison is
-  timezone-sensitive (see open Issue: events timezone drift).
+- `events.md:12` splits upcoming/past at build time using numeric timestamps.
 
 ### Add a release (`_discography/slug.md`)
 
@@ -93,8 +92,8 @@ Longer liner notes (Markdown).
 
 - Root pages use `permalink: /:path` via `collections.pages` (`_config.yml:14`);
   files in `_pages/` map to `/welcome`, `/on-demand`, etc. Root `about.md:6`,
-  `music.md:3`, `events.md:3`, `journal.md:3` have `permalink: /about` etc.
-  explicitly.
+  `music.md:3` and `events.md:3` have explicit permalinks; `journal/index.html`
+  is the pagination template for `/journal/`. explicitly.
 - Posts: `defaults: layout: post, permalink: /:year/:month/:day/:title`
   (`_config.yml:27`). Migrated Blogger posts carry `original_url`, `blogger_*`,
   `old_permalink`, `thumbnail` (external Blogger hotlinks) — preserve
@@ -116,8 +115,8 @@ Longer liner notes (Markdown).
   `site.js:11`).
 - Accordion: `.accordion button` toggles `aria-expanded` + `is-closed`
   (`site.js:7`).
-- `journal.md:7` lists `site.pages` sorted by `date` then `site.posts` —
-  pagination planned, don't paginate without configuring `jekyll-paginate`.
+- `journal/index.html` lists legacy pages on page 1 and paginates posts 12 at a
+  time via `jekyll-paginate`.
 
 ## 6. Guardrails — what agents MUST NOT do
 
@@ -128,12 +127,10 @@ Longer liner notes (Markdown).
    `bundle exec ruby script/jekyll.rb {serve,build}` (loads
    `_plugins/responsive_media_embeds` explicitly, `script/jekyll.rb:6`).
 3. **Don't add new remote image hotlinks** — vendor to `assets/images/`
-   WebP/AVIF with `width`/`height`; current `hero.image` (`_config.yml:64`) is
-   last external (`blogger.googleusercontent.com`).
+   WebP/AVIF with `width`/`height`.
 4. **Don't add live `Net::HTTP` calls** without cache —
-   `responsive_media_embeds.rb:97` `flickr_embed` hits
-   `flickr.com/services/oembed` at build time; mirror pattern with file cache in
-   `_data/` if extended.
+   `responsive_media_embeds.rb` caches Flickr oEmbed responses for 24 hours in
+   `_data/flickr_cache.json`; mirror that fallback pattern if extended.
 5. **Don't edit `_posts/with-heart-wide-open-jekyll-content/` in place** — it's
    imported archive pending move to `_archive/` (see Issue: archive
    duplication).

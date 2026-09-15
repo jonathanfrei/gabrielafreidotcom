@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>{% include head.html %}</head>
+  <head>{% include head.html %}{% include schema-music-group.html %}{% if page.collection == "events" %}{% include schema-event.html %}{% endif %}</head>
   <body>
     {% include header.html %}
     <main id="main-content">{{ content }}</main>

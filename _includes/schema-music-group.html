@@ -1,0 +1,13 @@
+{% if page.url == '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicGroup",
+  "name": {{ site.title | jsonify }},
+  "description": {{ site.description | jsonify }},
+  "url": {{ site.url | append: site.baseurl | jsonify }},
+  "image": {{ site.logo | jsonify }},
+  "sameAs": {{ site.social.links | jsonify }}
+}
+</script>
+{% endif %}

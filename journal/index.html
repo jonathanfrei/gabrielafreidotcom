@@ -1,0 +1,33 @@
+---
+layout: page
+title: Journal
+eyebrow: Stories
+description: Music, performances, reflections, and news from Gabriela’s archive.
+---
+
+{% if paginator.page == 1 %}
+<h2>Pages</h2>
+<ul>
+{% assign site_pages = site.pages | sort: "date" | reverse %}
+{% for item in site_pages %}{% if item.title and item.url != page.url %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+{% endif %}{% endfor %}
+</ul>
+{% endif %}
+
+<h2>Posts</h2>
+{% for post in paginator.posts %}
+<article class="journal-entry">
+  <p class="card-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p>{{ post.excerpt }}</p>
+</article>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination" aria-label="Journal pages">
+  {% if paginator.previous_page %}<a class="button button-secondary" href="{{ paginator.previous_page_path | relative_url }}">Newer posts</a>{% endif %}
+  <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}<a class="button button-secondary" href="{{ paginator.next_page_path | relative_url }}">Older posts</a>{% endif %}
+</nav>
+{% endif %}
