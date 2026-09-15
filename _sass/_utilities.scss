@@ -1,0 +1,24 @@
+.site-footer {
+  background: var(--color-text-main);
+  color: var(--color-bg-base);
+  padding-block: 3rem;
+}
+.site-footer a {
+  color: inherit;
+}
+.footer-grid {
+  align-items: start;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr auto;
+}
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+.copyright {
+  color: var(--color-text-muted);
+  grid-column: 1/-1;
+  margin: 0;
+}

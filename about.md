@@ -4,7 +4,6 @@ eyebrow: The artist
 description:
   Singer, pianist, composer, and songwriter—sharing music that points toward
   hope.
-layout: page
 title: About Me
 permalink: /about
 date: "1985-09-28T16:35:00.007-04:00"

@@ -6,7 +6,20 @@ timezone: America/New_York
 
 plugins:
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+paginate: 12
+paginate_path: /journal/page:num
+
+author:
+  name: Gabriela Frei
+logo: /assets/images/gabriela-frei.webp
+twitter:
+  card: summary_large_image
+seo:
+  type: MusicGroup
 
 collections:
   pages:
@@ -26,6 +39,11 @@ defaults:
     values:
       layout: post
       permalink: /:year/:month/:day/:title
+      image: /assets/images/gabriela-frei.webp
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/gabriela-frei.webp
   - scope:
       path: ""
       type: pages
@@ -55,13 +73,16 @@ navigation:
     url: /journal
 
 social:
+  name: Gabriela Frei
+  links:
+    - "https://www.youtube.com/@gabrielafrei"
   youtube: "https://www.youtube.com/@gabrielafrei"
 
 hero:
   eyebrow: Music · Faith · Story
   title: Songs from the heart, offered with grace.
   text: Gabriela Frei is a singer, pianist, and songwriter creating music rooted in faith, hope, and the beauty of the present moment.
-  image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMqOorH2zwHtadxSHsiBxJLW58vQXJC3BfX1JXGCwe1zVTb3zEkGEHj66e_7G7QhuBD3fz1j7appMJvC50yPdLtnMAH2mh-URq9bLAneX3jtuErhNoRmXxHsUb8QBVRhr4Xc9WS7SxiuL4/s1600/gaby2.jpg"
+  image: /assets/images/gabriela-frei.webp
 
 exclude:
   - Gemfile
@@ -81,3 +102,4 @@ exclude:
   - .vscode
   - .githooks
   - script/sync-agent-docs.rb
+  - script/fetch_flickr_cache.rb

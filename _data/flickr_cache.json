@@ -1,0 +1,18 @@
+{
+  "https://www.flickr.com/photos/bees/155761353": {
+    "fetched_at": "2026-09-15T00:00:00Z",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/bees/155761353\" title=\"Flickr photo\">View photo on Flickr</a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>"
+  },
+  "https://www.flickr.com/photos/42651221@N07/albums/72157622468792653": {
+    "fetched_at": "2026-09-15T00:00:00Z",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/42651221@N07/albums/72157622468792653\" title=\"Performances\">View album on Flickr</a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>"
+  },
+  "https://www.flickr.com/photos/42651221@N07/albums/72157622468225709": {
+    "fetched_at": "2026-09-15T00:00:00Z",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/42651221@N07/albums/72157622468225709\" title=\"Miscellaneous\">View album on Flickr</a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>"
+  },
+  "https://www.flickr.com/photos/42651221@N07/albums/72157622593311094": {
+    "fetched_at": "2026-09-15T00:00:00Z",
+    "html": "<a data-flickr-embed=\"true\" href=\"https://www.flickr.com/photos/42651221@N07/albums/72157622593311094\" title=\"Portrait shots\">View album on Flickr</a><script async src=\"https://embedr.flickr.com/assets/client-code.js\" charset=\"utf-8\"></script>"
+  }
+}

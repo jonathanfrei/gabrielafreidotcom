@@ -1,13 +1,17 @@
 # frozen_string_literal: true
 
 require "cgi"
+require "fileutils"
 require "json"
 require "net/http"
 require "uri"
+require "time"
 
 module ResponsiveMediaEmbeds
   STANDALONE_URL = /^\s*(https?:\/\/[^\s<>]+)\s*$/i
   YOUTUBE_ID = /\A[A-Za-z0-9_-]{11}\z/
+  FLICKR_CACHE_PATH = File.expand_path("../_data/flickr_cache.json", __dir__)
+  FLICKR_CACHE_TTL = 86_400
 
   module_function
 
@@ -77,6 +81,22 @@ module ResponsiveMediaEmbeds
   end
 
   def flickr_embed(url)
+    cached = flickr_cache.fetch(url, nil)
+    return wrap_flickr(cached["html"]) if cache_fresh?(cached)
+
+    embed_html = fetch_flickr_html(url)
+    if embed_html
+      flickr_cache[url] = { "fetched_at" => Time.now.utc.iso8601, "html" => embed_html }
+      write_flickr_cache
+      return wrap_flickr(embed_html)
+    end
+
+    wrap_flickr(cached && cached["html"])
+  end
+
+  def fetch_flickr_html(url)
+    return if ENV["JEKYLL_OFFLINE"] == "true"
+
     endpoint = URI("https://www.flickr.com/services/oembed/")
     endpoint.query = URI.encode_www_form(format: "json", url: url)
     response = Net::HTTP.start(
@@ -88,12 +108,46 @@ module ResponsiveMediaEmbeds
     ) { |http| http.get(endpoint.request_uri) }
     return unless response.is_a?(Net::HTTPSuccess)
 
-    embed_html = JSON.parse(response.body)["html"]
-    return if embed_html.to_s.empty?
-
-    %(<div class="media-embed media-embed--flickr">\n#{embed_html}\n</div>\n)
+    html = JSON.parse(response.body)["html"]
+    html unless html.to_s.empty?
   rescue JSON::ParserError, Net::OpenTimeout, Net::ReadTimeout, SocketError
     nil
+  end
+
+  def flickr_cache
+    @flickr_cache ||= JSON.parse(File.read(FLICKR_CACHE_PATH))
+  rescue Errno::ENOENT, JSON::ParserError
+    @flickr_cache = {}
+  end
+
+  def cache_fresh?(entry, now: Time.now)
+    return false unless entry.is_a?(Hash) && !entry["html"].to_s.empty?
+
+    now - Time.iso8601(entry.fetch("fetched_at")) < FLICKR_CACHE_TTL
+  rescue KeyError, ArgumentError
+    false
+  end
+
+  def write_flickr_cache
+    FileUtils.mkdir_p(File.dirname(FLICKR_CACHE_PATH))
+    File.write(FLICKR_CACHE_PATH, JSON.pretty_generate(flickr_cache) << "\n")
+  rescue SystemCallError
+    nil
+  end
+
+  def wrap_flickr(html)
+    return if html.to_s.empty?
+
+    %(<div class="media-embed media-embed--flickr">\n#{html}\n</div>\n)
+  end
+  def refresh_flickr_cache(urls)
+    urls.each do |url|
+      html = fetch_flickr_html(url)
+      next unless html
+
+      flickr_cache[url] = { "fetched_at" => Time.now.utc.iso8601, "html" => html }
+    end
+    write_flickr_cache
   end
 end
 

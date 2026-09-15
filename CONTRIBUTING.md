@@ -33,9 +33,8 @@ sold_out: false
 Optional description in Markdown.
 ```
 
-Upcoming/past is split at build time in `events.md:7` — string comparison
-against `site.time` with `timezone: America/New_York` (`_config.yml:5`). Include
-`-0400`.
+Upcoming/past is split at build time in `events.md:7` by comparing Unix
+timestamps against `site.time`. Include the timezone offset, such as `-0400`.
 
 ### Release
 
@@ -58,9 +57,8 @@ Longer liner notes.
 
 ### Page / Journal post
 
-- Pages in `_pages/*.md` render at `/:path` with `layout: page`
-  (`_config.yml:14`). Root pages `music.md`, `events.md`, `journal.md`,
-  `about.md` have explicit `permalink: /{music,events,journal,about}`.
+- Pages in `_pages/*.md` render at `/:path` with `layout: page`. The journal
+  template is `journal/index.html` and paginates posts 12 at a time.
 - Posts in `_posts/*.md` use `layout: post`,
   `permalink: /:year/:month/:day/:title` (`_config.yml:27`). Migrated Blogger
   fields (`original_url`, `blogger_*`, `thumbnail`) are preserved for history —
@@ -69,17 +67,15 @@ Longer liner notes.
   via `_plugins/responsive_media_embeds.rb:1` — don't wrap them in a link.
 
 Images: prefer local `assets/images/` WebP/AVIF with `width`/`height` +
-meaningful `alt`. Avoid `blogger.googleusercontent.com` hotlinks (remaining hero
-image is a known debt).
+meaningful `alt`. Avoid `blogger.googleusercontent.com` hotlinks.
 
 ## Theme & style
 
 - Tokens: `_sass/_tokens.scss:1` — brand `#970c00`, gold `#c29b38`,
   `color-scheme` light/dark, fonts `Playfair Display`/`Inter`. Change colors
   there only.
-- Styles: currently `assets/main.scss:1` (planned split to
-  `_sass/_base|_layout|_components.scss`). Use `clamp()`, `color-mix()`,
-  `aspect-ratio`.
+- Styles: `assets/main.scss:1` imports the focused partials under `_sass/`. Use
+  `clamp()`, `color-mix()`, and `aspect-ratio`.
 - JS: `assets/js/site.js:1` vanilla — keep it small (nav `is-open`, theme
   `localStorage.theme`, accordion `is-closed`, lightbox `dialog`).
 

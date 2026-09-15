@@ -4,6 +4,8 @@ require "jekyll"
 require_relative "../_plugins/responsive_media_embeds"
 require "tmpdir"
 
+ENV["JEKYLL_OFFLINE"] = "true"
+
 def assert(condition, message)
   abort(message) unless condition
 end
@@ -22,6 +24,17 @@ assert(vimeo.include?("player.vimeo.com/video/76979871"), "Vimeo embed conversio
 assert(flickr.include?("data-flickr-embed"), "Flickr photo embed conversion failed")
 assert(flickr_album.include?("data-flickr-embed"), "Flickr album embed conversion failed")
 assert(inline_link == "Listen at https://youtu.be/dQw4w9WgXcQ today.\n", "Inline media link was changed")
+
+event_boundary_template = <<~LIQUID
+  {% assign now_timestamp = site.time | date: "%s" | plus: 0 %}
+  {% assign event_timestamp = event.event_date | date: "%s" | plus: 0 %}
+  {% if event_timestamp >= now_timestamp %}upcoming{% else %}past{% endif %}
+LIQUID
+event_boundary = Liquid::Template.parse(event_boundary_template).render(
+  { "site" => { "time" => Time.utc(2026, 10, 15, 8) },
+    "event" => { "event_date" => Time.new(2026, 10, 15, 19, 30, 0, "-04:00") } }
+)
+assert(event_boundary.strip == "upcoming", "Event timestamp comparison drifted across timezones")
 
 Dir.mktmpdir("gabrielafrei-jekyll-test") do |destination|
   configuration = Jekyll.configuration(
@@ -63,19 +76,29 @@ Dir.mktmpdir("gabrielafrei-jekyll-test") do |destination|
     "music.md" => "/music",
     "events.md" => "/events",
     "about.md" => "/about",
-    "journal.md" => "/journal"
+    "index.html" => "/journal/"
   }
   root_pages.each do |name, expected_url|
-    generated_page = site.pages.find { |page| page.name == name }
+    generated_page = site.pages.find { |page| page.name == name && (name != "index.html" || page.path == "journal/index.html") }
     assert(generated_page&.url == expected_url, "#{name} URL should be #{expected_url}, got #{generated_page&.url}")
   end
-  %w[index.html music.html events.html about.html journal.html].each do |path|
+  %w[index.html music.html events.html about.html journal/index.html journal/page2/index.html sitemap.xml robots.txt].each do |path|
     assert(File.exist?(File.join(destination, path)), "Expected generated page is missing: #{path}")
   end
   home_html = File.read(File.join(destination, "index.html"))
   assert(home_html.include?("Songs from the heart, offered with grace."), "New home hero was not rendered")
   assert(home_html.include?('aria-label="Main navigation"'), "Accessible navigation was not rendered")
   assert(home_html.include?('class="theme-toggle"'), "Theme control was not rendered")
+  assert(home_html.include?('property="og:image"'), "Open Graph image metadata was not rendered")
+  assert(home_html.include?('name="twitter:card"'), "Twitter card metadata was not rendered")
+  assert(home_html.include?('"@type": "MusicGroup"'), "MusicGroup structured data was not rendered")
+  sitemap = File.read(File.join(destination, "sitemap.xml"))
+  %w[/music /events /releases/ /appearances/].each do |path|
+    assert(sitemap.include?(path), "Sitemap is missing #{path}")
+  end
+  event_document = site.collections.fetch("events").docs.first
+  event_html = File.read(event_document.destination(destination))
+  assert(event_html.include?('"@type": "MusicEvent"'), "Event structured data was not rendered")
   assert(site.collections.fetch("events").docs.any?, "Events collection is empty")
   assert(site.collections.fetch("discography").docs.any?, "Discography collection is empty")
   assert(site.collections.fetch("events").docs.all? { |event| event.url.start_with?("/appearances/") }, "Event detail URLs conflict with /events")

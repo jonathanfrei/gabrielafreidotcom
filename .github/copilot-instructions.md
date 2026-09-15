@@ -25,10 +25,10 @@ npm run lint && npm run format
 
 - Config: `_config.yml` (nav, social.youtube, hero, collections `pages:/:path`,
   `events:/appearances/:name`, `discography:/releases/:name`)
-- Styles: tokens `_sass/_tokens.scss`, bundle `assets/main.scss`
+- Styles: tokens and focused partials in `_sass/`, bundle `assets/main.scss`
 - Layouts: `_layouts/{default,home,page,post,event,release}.html`
 - Content: `_discography/`, `_events/YYYY-MM-DD-*.md`, `_pages/`, `_posts/`,
-  root `music.md`/`events.md`/`journal.md`/`about.md`
+  root `music.md`/`events.md`/`about.md`, and `journal/index.html`
 
 ## Content schemas
 
@@ -45,8 +45,8 @@ npm run lint && npm run format
 - Don't upgrade `github-pages`/Ruby without approval.
 - No new `blogger.googleusercontent.com` hotlinks — use local WebP/AVIF +
   width/height + alt.
-- No new live `Net::HTTP` without cache (`responsive_media_embeds.rb:97` flickr
-  oembed is flaky).
+- No new live `Net::HTTP` without cache (Flickr oEmbed uses
+  `_data/flickr_cache.json` with stale fallback).
 - Nav: `aria-expanded` + `.is-open`, theme: `data-theme` + `localStorage.theme`,
   lightbox: `dialog.lightbox`, accordion: `is-closed`.
 
